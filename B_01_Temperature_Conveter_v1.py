@@ -18,6 +18,7 @@ class Converter:
 
         self.temp_frame = Frame(padx=10, pady=10)
         self.temp_frame.grid()
+        print("I am making changes here so you can see how to commit. Make sure you save (ctrl+s) or you won't be able to commit")
 
         self.temp_heading = Label(self.temp_frame,
                                   text="Temperature Convertor",
